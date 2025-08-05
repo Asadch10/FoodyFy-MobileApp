@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import SplashScreen from './screens/SplashScreen';
+import LoginScreen from './screens/LoginScreen';
 import HomeScreen from './screens/HomeScreen';
 import AddOrderScreen from './screens/AddOrderScreen';
 import ViewOrdersScreen from './screens/ViewOrdersScreen';
@@ -15,9 +16,10 @@ function AppNavigator() {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
-        cardStyle: { backgroundColor: '#1A1A2E' }
+        cardStyle: { backgroundColor: '#F8F9FA' }
       }}
     >
+      <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="AddOrder" component={AddOrderScreen} />
       <Stack.Screen name="ViewOrders" component={ViewOrdersScreen} />
