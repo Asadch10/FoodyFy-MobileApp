@@ -1,29 +1,36 @@
 {
   "expo": {
-    "name": "Foody-Fy",
-    "slug": "Foody-Fy",
+    "name": "FoodyFy",
+    "slug": "FoodyFy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
+    "icon": "./spalsh.png",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./spalsh.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1A1A2E"
+      "backgroundColor": "#F8F9FA"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foodyfy.app"
     },
     "android": {
+      "package": "com.foodyfy.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./spalsh.png",
+        "backgroundColor": "#F8F9FA"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./spalsh.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2dd2dc0-e062-4740-b979-6965dc44d958"
+      }
     }
   }
 }

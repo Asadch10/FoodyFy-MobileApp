@@ -68,12 +68,12 @@ const LoginScreen = ({ navigation }) => {
             resizeMode="contain"
           />
           <Text style={styles.appTitle}>Foody-Fy</Text>
-          <Text style={styles.appSubtitle}>Your Food Companion</Text>
+          {/* <Text style={styles.appSubtitle}>Your Food Companion</Text> */}
         </View>
 
         {/* Login Form */}
         <View style={styles.formSection}>
-          <Text style={styles.welcomeText}>Welcome Back!</Text>
+          {/* <Text style={styles.welcomeText}>Welcome Back!</Text> */}
           <Text style={styles.loginSubtext}>Sign in to continue</Text>
 
           {/* Email Input */}
@@ -137,11 +137,11 @@ const LoginScreen = ({ navigation }) => {
           </TouchableOpacity>
 
           {/* Demo Credentials */}
-          <View style={styles.demoContainer}>
+          {/* <View style={styles.demoContainer}>
             <Text style={styles.demoTitle}>Demo Credentials:</Text>
             <Text style={styles.demoText}>Email: asad@admin.com</Text>
             <Text style={styles.demoText}>Password: 123</Text>
-          </View>
+          </View> */}
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
